@@ -14,11 +14,10 @@ console.log(pseudo('hover'))
 const App = () => (
   <div
     ref={node => {
-      this.node = node
+      pseudo('hover', node, {
+        'background': 'blue'
+      })
     }}
-    className={pseudo('hover', this.node, {
-      background: 'blue'
-    })}
     style={styles.app}
   >
     React Pseudo
