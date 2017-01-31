@@ -1,0 +1,26 @@
+{
+  "name": "react-pseudo",
+  "version": "1.0.0",
+  "description": "Pseudo selectors for your React Components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timurtu/react-pseudo.git"
+  },
+  "keywords": [
+    "React",
+    "Component",
+    "CSS",
+    "Pseudo",
+    "Selectors"
+  ],
+  "author": "Timur Uzel <timurt.uzel@gmail.com> (https://github.com/timurtu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timurtu/react-pseudo/issues"
+  },
+  "homepage": "https://github.com/timurtu/react-pseudo#readme"
+}
