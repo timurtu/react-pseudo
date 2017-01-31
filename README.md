@@ -15,16 +15,20 @@ import pseudo from 'react-pseudo'
 
 const styles = {
   app: {
-    background: 'red',
-    pseudo('hover'): {
-      background: 'blue'
-    }
+    padding: '1em'
   }
 }
 
 const App = () => (
-  <div style={styles.app}>
-    pseudo
+  <div
+    style={styles.app}
+    ref={node => {
+      pseudo('hover', node, {
+        background: 'blue'
+      })
+    }}
+  >
+    React Pseudo
   </div>
 )
 
