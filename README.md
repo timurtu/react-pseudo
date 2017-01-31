@@ -4,7 +4,7 @@
 
 ## Install
 ```
-npm install react-pseudo
+npm install --save react-pseudo
 ```
 
 ## Usage
