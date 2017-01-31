@@ -2,7 +2,7 @@
   "name": "react-pseudo",
   "version": "1.0.0",
   "description": "Pseudo selectors for your React Components.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/timurtu/react-pseudo/issues"
   },
-  "homepage": "https://github.com/timurtu/react-pseudo#readme"
+  "homepage": "https://github.com/timurtu/react-pseudo#readme",
+  "dependencies": {
+    "jss-node": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
 }
