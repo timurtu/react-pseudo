@@ -1,6 +1,6 @@
 {
   "name": "react-pseudo",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Pseudo selectors for your React Components.",
   "main": "dist/index.js",
   "files": [
