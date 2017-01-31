@@ -1,9 +1,11 @@
 {
   "name": "react-pseudo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pseudo selectors for your React Components.",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
