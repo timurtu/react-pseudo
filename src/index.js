@@ -1,9 +1,9 @@
 import jss from 'jss-node'
 import cuuid from 'cuuid'
 
-export default function(node, selector, style) {
+export default function(selector, style) {
   const id = 'a' + Math.floor(Math.random() * Date.now()).toString()
   jss.set(`#${id}:${selector}`, style)
-  node.setAttribute('id', id)
+  arguments[0].setAttribute('id', id)
   return id
 }
