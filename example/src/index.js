@@ -10,7 +10,8 @@ const styles = {
 
 const App = () => (
   <div
-    ref={pseudo('hover', {
+    ref={node => this.node = node}
+    className={pseudo('hover', this.node, {
       'background': 'blue'
     })}
     style={styles.app}
