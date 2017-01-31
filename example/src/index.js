@@ -5,7 +5,6 @@ import pseudo from 'react-pseudo'
 const styles = {
   app: {
     padding: '1em',
-    background: 'red'
   }
 }
 
