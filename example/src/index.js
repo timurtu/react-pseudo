@@ -9,8 +9,6 @@ const styles = {
   }
 }
 
-console.log(pseudo('hover'))
-
 const App = () => (
   <div
     ref={node => {
